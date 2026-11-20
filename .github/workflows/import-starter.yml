@@ -21,6 +21,7 @@ jobs:
           cp -R AurumTrade/. .
           rm -rf AurumTrade
           rm -f AurumTrade-android-starter.zip
+          rm -f .github/workflows/android.yml
 
       - name: Commit project files
         run: |
